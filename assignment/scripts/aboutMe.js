@@ -97,6 +97,17 @@ if (pets < allowedPets) {
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
 
+let mostPets
+
+if (friendsPets >= pets) { mostPets = friendsPets
+
+}
+else mostPets = pets
+
+console.log(`Who knew it was so confusing to count ${mostPets} pets!`);
+
+
+
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
