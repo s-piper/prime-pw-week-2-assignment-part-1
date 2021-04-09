@@ -107,7 +107,22 @@ else mostPets = pets
 console.log(`Who knew it was so confusing to count ${mostPets} pets!`);
 
 
-
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+
+
+switch (true) {
+  case pets > friendsPets:
+    console.log('All the pets',pets);
+    break;
+  case pets <= friendsPets:
+    console.log('Please', friendsPets);
+    break;
+  default:
+
+}
+
+
+
+
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
