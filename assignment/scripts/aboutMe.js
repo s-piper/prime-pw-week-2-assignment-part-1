@@ -109,7 +109,6 @@ console.log(`Who knew it was so confusing to count ${mostPets} pets!`);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
-
 switch (true) {
   case pets > friendsPets:
     console.log('All the pets',pets);
@@ -121,8 +120,7 @@ switch (true) {
 
 }
 
-
-
-
-
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+var risky = adventurous ? "Adventures are great!" : "How about we stay home?";
+console.log(risky);
